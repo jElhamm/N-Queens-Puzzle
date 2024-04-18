@@ -20,9 +20,11 @@ private:
     int solutions;
     double executionTime;
     bool isSafe(int row, int col);
+    void kMinisterBacktracking(int k, int row);
 
 public:
     KMinistersSolver();
+    int solve(int k);
     double getExecutionTime();
 };
 
