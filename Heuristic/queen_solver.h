@@ -13,10 +13,12 @@
 class QueenSolver {
 public:
     QueenSolver();
+    void solve();
 
 private:
     int numQueens;
     int totalSolutions;
+    bool isSafe(std::vector<int> board);
     int countQueensSolutions(std::vector<int> board);
 };
 
