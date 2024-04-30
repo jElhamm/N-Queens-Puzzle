@@ -1,10 +1,10 @@
-# N Queens Puzzle Solver
+# N Queens Puzzle
 
    This repository contains an implementation of the [*N Queens Puzzle*](https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/) solver in [Python](https://www.python.org/) and [C++](https://cplusplus.com/).
    The N-Queens problem is a classic problem in computer science where the task is to place N chess queens on an N×N chessboard so that no two queens threaten each other;
    thus, a solution requires that no two queens share the same row, column, or diagonal.
 
-## The N Queens Problem
+## N Queens Problem
 
    The N Queens problem is a fascinating puzzle that dates back to the 19th century.
    It was first proposed as a chess puzzle by chess composer Max Bezzel in 1848.
